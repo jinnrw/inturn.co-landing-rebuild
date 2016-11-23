@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 300;
+}
+
+p {
+  line-height: 25px;
+}
+
+body {
+  color: #43566a;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+/* Nav */
+
+.nav {
+  width: 100%;
+  padding: 12px 0 8px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background: white;
+}
+
+.nav-container {
+  width: 1300px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 8%;
+  display: flex;
+}
+
+.nav-menu {
+  display: flex;
+  font-size: 13px;
+  align-items: center;
+}
+
+.logo {
+  flex: 2;
+  display: flex;
+}
+.logo-img {
+  width: 150px;
+}
+
+
+.nav-menu-item {
+  margin-right: 22px;
+  line-height: 23px;
+  text-transform: uppercase;
+}
+
+.cta-btn {
+  color: white;
+  font-weight: 300;
+  font-size: 13px;
+  padding: 6px 22px;
+  background-color: #eb6748;
+  border-radius: 23px;
+  line-height: 23px;
+  letter-spacing: 2px;
+  transition: background-color 0.3s,color 0.3s;
+  -webkit-transition: background-color 0.3s,color 0.3s;
+  border: none;
+  margin: 0;
+  display: inline-block;
+  border: 2px solid #eb6748;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+
+/* ===== Double Img =====*/
+
+.section {
+  padding-bottom: 60px;
+  background-color: #EFF7FE;
+}
+.sec-1 {
+  padding-top: 200px;
+}
+
+.container {
+  width: 1300px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 8%;
+  position: relative;
+}
+
+.double-img-container {
+
+}
+
+.sec-1-container h1 {
+  margin: 0 auto;
+  font-size: 35px;
+  font-weight: 300;
+  text-align: center;
+  width: 625px;
+  line-height: 45px;
+}
+
+.double-img{
+  display: flex;
+  justify-content: space-between;
+}
+
+.double-img img{
+  max-width: 100%;
+  width: 30%;
+  height: 100%;
+}
+
+.single-img{
+  display: flex;
+  justify-content: center;
+}
+
+.single-img img{
+  max-width: 100%;
+  width: 30%;
+  height: 100%;
+}
+
+/* ===== Section 2 - cta-container =====*/
+.cta-container {
+  padding-top: 120px;
+  padding-bottom: 60px; 
+  text-align: center;
+}
+
+.single-img-container {
+  width: 470px;
+  padding: 0;
+}
+
+.cta-container .single-img img{
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.cta-container h2 {
+    color: #03bdd6;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.cta-container p {
+  padding-bottom: 50px;
+}
+
+/* ===== Section 3 - join-container =====*/
+.join-container {
+  overflow: hidden;
+}
+.join-container{
+  background-image: url(http://inturn.co/sites/default/files/static%20content%20pg/Group3_short.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  padding: 210px 8% 170px;
+}
+
+.join-container h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 44px;
+    margin-bottom: 30px;
+}
+
+/* ===== Section 4 - investors-container  =====*/
+
+.investors-double-img {
+  display: flex;
+}
+
+.investors-double-img img {
+  width: 30%;
+  height: 100%;
+  flex: 1;
+}
+
+.investors-double-img h1 {
+  font-size: 40px;
+  line-height: 56px;
+  margin-bottom: 57px;
+}
+
+.investors-logos {
+  margin-bottom: 30px;
+}
+
+.investors-logos ul{
+  display: flex;
+}
+
+.investors-logos ul li{
+  width: 20%;
+}
+
+.investors-logos ul li img{
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+
+.investor-list-item {
+  font-size: 16px; 
+  line-height: 28px;
+  padding: 0 10px;
+  border-left: 1px solid black;
+}
+
+.investor-list :nth-child(1) {
+  border-left: none;
+}
