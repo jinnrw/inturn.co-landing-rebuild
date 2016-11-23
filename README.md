@@ -1,12 +1,12 @@
 # inturn.co Landing Page Rebuild
 A self-practice for re-building [inturn.co](http://inturn.co/) landing page from scratch within 2.5 hours.
 
-### Version log:
-1. Landing page deploy (footer awaits). (v1.0, 2016-11-22)
-
 ### View on
 
 1. View the [live website](https://jinnrw.github.io/inturn.co-landing-rebuild/).
+
+### Version log:
+1. Landing page deploy (footer awaits). (v1.0, 2016-11-22)
 
 ### Disclaimer
 
